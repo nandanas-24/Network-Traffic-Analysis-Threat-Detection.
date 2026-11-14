@@ -1,0 +1,75 @@
+** NETWORK TRAFFIC ANALYSIS AND THREAT DETECTION **
+## PowerShell Commands
+
+### 1. Open Project Folder
+```powershell
+cd C:\Users\nanda\Network_Traffic_Threat_Detection\Network_Traffic_Threat_Detection
+```
+
+### 2. Run Python Programs
+
+```powershell
+python main.py
+```
+
+```powershell
+python scan_detection.py
+```
+
+```powershell
+python retransmission_detection.py
+```
+
+```powershell
+python dashboard.py
+```
+
+### 3. Open Python Files
+
+```powershell
+notepad main.py
+notepad scan_detection.py
+notepad retransmission_detection.py
+notepad dashboard.py
+```
+
+### 4. TShark Commands
+
+Check TShark version:
+
+```powershell
+& "C:\Program Files\Wireshark\tshark.exe" --version
+```
+
+Count TCP retransmissions:
+
+```powershell
+& "C:\Program Files\Wireshark\tshark.exe" -r "C:\Users\nanda\OneDrive\Documents\wireshark.pcapng" -Y "tcp.analysis.retransmission" -T fields -e frame.number | Measure-Object -Line
+```
+
+### 5. Verify Dashboard
+
+```powershell
+Test-Path ".\network_security_dashboard.png"
+```
+
+### 6. Display Project Files
+
+```powershell
+dir
+```
+
+### 7. Check Python Version
+
+```powershell
+python --version
+```
+
+### 8. Installed Libraries
+
+```powershell
+python -m pip list
+```
+
+---
+Project: Network Traffic Analysis and Threat Detection Using Wireshark and Python.
