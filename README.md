@@ -180,6 +180,4 @@ GitHub: https://github.com/nandanas-24
 
 LinkedIn: https://www.linkedin.com/in/nandana-s-6b33762a/
 
----
 
-**Note:** This project is intended for educational and defensive network analysis. Use packet captures from networks you own or are authorised to monitor.
