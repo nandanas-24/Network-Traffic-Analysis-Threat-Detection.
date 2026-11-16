@@ -1,7 +1,7 @@
 from scapy.all import PcapReader, IP, IPv6, TCP, UDP
 from collections import Counter
 
-PCAP_FILE = r"C:\Users\nanda\OneDrive\Documents\wireshark.pcapng"
+PCAP_FILE = r"PCAP_FILE = "sample_traffic.pcapng""
 
 packet_count = 0
 protocols = Counter()
