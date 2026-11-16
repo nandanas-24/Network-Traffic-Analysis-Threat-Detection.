@@ -1,7 +1,7 @@
 from scapy.all import PcapReader, IP, IPv6, TCP
 from collections import defaultdict
 
-PCAP_FILE = r"C:\Users\nanda\OneDrive\Documents\wireshark.pcapng"
+PCAP_FILE = r"PCAP_FILE = "sample_traffic.pcapng""
 
 scan_data = defaultdict(set)
 
