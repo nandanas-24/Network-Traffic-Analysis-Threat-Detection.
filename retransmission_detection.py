@@ -1,6 +1,6 @@
 import subprocess
 
-PCAP_FILE = r"C:\Users\nanda\OneDrive\Documents\wireshark.pcapng"
+PCAP_FILE = r"PCAP_FILE = "sample_traffic.pcapng""
 
 TSHARK = r"C:\Program Files\Wireshark\tshark.exe"
 
